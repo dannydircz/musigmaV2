@@ -314,4 +314,4 @@ if __name__ == '__main__':
         )
     except:
         pass
-    app.run(debug=config.BaseConfig.DEBUG)
+    app.run(debug=config.BaseConfig.DEBUG, port=33507)
